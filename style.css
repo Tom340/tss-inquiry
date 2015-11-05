@@ -1,0 +1,89 @@
+body      {background-color: #ffffff;
+           color: #000000;
+           margin: 0;
+           padding: 0;}
+
+table     {border: .5pt solid windowtext;}
+
+th        {font-family: verdana,geneva,arial,helvetica,sans-serif;
+           font-size: 12;
+           font-weight: bold;
+           color: #ffffff;
+           background-color: #008000;
+           text-align: center;
+           border: .1pt solid windowtext; }
+
+td        {font-family: verdana,geneva,arial,helvetica,sans-serif;
+           font-size: 12;
+           text-align: center;
+           border: .1pt solid ; }
+
+a:link    {background-color: transparent;
+           color: #000080;
+           font-weight: bold;
+           text-decoration:none;}
+a:visited {background-color: transparent;
+           color: #800080;
+           font-weight: bold;
+           text-decoration:none;}
+a:active  {background-color: transparent;
+           color: #fe0000;
+           font-weight: bold;
+           text-decoration:none;}
+a:hover   {background-color: #ff88cc;
+           color: #1919aa;
+           font-weight: bold;
+           text-decoration: none;}
+
+tr.even   {background-color: #ffffff;}
+tr.odd    {background-color: #ffffaa;}
+
+div       {color: #000000;
+           background-color: #c5cae2;
+           margin-bottom:   0px;
+           border-style: none;       /* NN4 */
+           border-width: 1px;        /* NN4 */
+           padding:      0.1em 1em;     /* NN, IE (same value as div.navi */
+           width:     100%;
+           white-space:  nowrap;
+           font-family: verdana,geneva,arial,helvetica,sans-serif;
+           font-weight:bolder;
+           text-align: center;}
+
+dt        {font-weight: bold;}
+
+form      {color: #000000
+           background-color: transparent;
+           font-family: verdana,geneva,arial,helvetica,sans-serif;
+           font-size: small;
+           text-align: center;}
+
+p         {font-family: verdana,geneva,arial,helvetica,sans-serif;
+           font-size: x-small;
+           text-align: center;}
+
+h1        {color: #707070;
+           background-color: transparent;
+           font-weight:bolder;
+           border-style: none none solid none;
+           border-width: 0px 0px 2px 0px;
+           border-color: #000080;
+           padding-top: 1em;
+           padding-left: 1em;
+           padding-bottom: 5px;
+           width: 100%;       /* NN4 */
+           text-align: center;}
+          }
+          
+h2        {color: #707070;
+           background-color: transparent;
+           font-weight:bolder;}
+
+h3        {color: #707070;
+           background-color: transparent;
+           font-weight:bold;}
+h4        {color: #707070;
+           background-color: transparent;
+           font-weight:bold;}
+input     {border-radius: 5px;height:30px}
+input#button {border-radius: 5px;height:30px;width:80px;}
